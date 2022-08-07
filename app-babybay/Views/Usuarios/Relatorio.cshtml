@@ -1,0 +1,69 @@
+﻿@model app_babybay.Models.Usuario
+
+@{
+	ViewData["Title"] = "Meu Guarda-Roupas";
+}
+
+<h1>Minhas Roupas</h1>
+
+<div>
+	<hr />
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					Nome
+				</th>
+				<th>
+					Cor
+				</th>
+				<th>
+					Idade
+				</th>
+				<th>
+					Tamanho
+				</th>
+				<th>
+					Tempo de Uso
+				</th>
+				<th>
+					Descrição
+				</th>
+				<th>
+					Categoria
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model.Produtos)
+			{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Nome)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Cor)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Idade)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Tamanho)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.TempoUso)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Descricao)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Categoria)
+				</td>
+			</tr>
+			}
+		</tbody>
+	</table>
+</div>
+<div>	
+	<a role="button" class="btn btn-primary" asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../page-css/style-template.css">
+    <link rel="stylesheet" href="../page-css/style-cadastro-usuario.css">    
+    <title>BabyBay - Cadastro Usuário</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-bg">
+            <div class="menu">
+                <div class="menu__logo">
+                    <a href="index.html" target=_self><img src="../img/logo-200px.png" alt="logo-babybay"></a>
+                </div> <!-- .menu__logo-->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__link">Já tem uma conta?</li>
+                        <li class="nav__link--bold"><a href="#" target=_self>Entrar</a></li>
+                    </ul> <!-- .nav__list-->
+                </nav>
+                <!--.nav-->
+            </div>
+            <!--.menu-->
+        </div> <!-- .menu-bg-->
+    </header>
+    <!--header-->
+
+    <div class="div-titulo-cadastro">
+        <h1>Cadastro de Usuário</h1>
+    </div>
+
+    <section class="section-c"> 
+        <div class="section-c__div">            
+            <article class="article-c">
+                <ul class="article-c__ul">
+                    <li>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+                    </li>
+                    <li>
+                        <label for="data-nasc">Data Nascimento</label>
+                        <input type="date" name="data-nasc" id="data-nasc">
+                    </li>
+                    <li>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" class="endereco">
+                    </li>
+                    <li>
+                        <label for="telefone">Telefone</label>
+                        <input type="number" name="telefone" id="telefone">
+                    </li>
+                    <li>
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" id="rua" class="endereco">
+                    </li>
+                    <li>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro" id="bairro" class="endereco">
+                    </li>
+                    <li>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" class="endereco">
+                    </li>
+                </ul>
+
+            </article> <!-- .container-principal__article--um-->
+            <article class="article-c">
+                <ul class="article-c__ul">
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu E-mail">
+                    </li>
+                    <li>
+                        <label for="password">Senha</label>
+                        <input type="password" name="password" id="password" placeholder="******">
+                    </li>
+                    <li>
+                        <label for="confirmar-password">Confirmar Senha</label>
+                        <input type="password" name="confirmar-password" id="confirmar-password" placeholder="******">
+                    </li>
+                    <li>
+                        <input type="submit" value="Confirmar" id="btn-confirmar">
+                    </li>
+                </ul>
+            </article> <!-- .container-principal__article--dois-->
+        </div>
+
+    </section>
+
+
+    <main>
+
+    </main>
+
+    <footer class="footer-principal">
+        <div class="conteudo__footer">
+            <p class="conteudo__footer__frase">App Version - V1.0</p>
+            <p class="conteudo__footer__frase">ALL RIGHTS RESERVED TO BABYBAY © 2022</p>
+        </div> <!-- .conteudo__footer-->
+    </footer> <!-- .footer-principal" -->
+
+
+</body>
+
+</html>
+
+<!--
+.bloco-principal { padding:15px; }
+.bloco-principal__artigo { max-width:600px; }
+.bloco-principal__artigo--fundo-cinza { background: #c9c9c9; }
+-->

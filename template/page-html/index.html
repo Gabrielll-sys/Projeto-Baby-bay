@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../page-css/style-template.css">
+    <link rel="stylesheet" href="../page-css/style-index.css">
+    <link rel="shortcut icon" href="../favicon/favicon-16x16.png" type="image/x-icon">
+    <title>BabyBay</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu-bg">
+            <div class="menu">
+                <div class="menu__logo">
+                    <a href="index.html" target=_self><img src="../img/logo-200px.png" alt="logo-babybay"></a>
+                </div> <!-- .menu__logo-->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__link">Já tem uma conta?</li>
+                        <li class="nav__link--bold"><a href="#" target=_self>Entrar</a></li>
+                    </ul> <!-- .nav__list-->
+                </nav>
+                <!--.nav-->
+            </div>
+            <!--.menu-->
+        </div> <!-- .menu-bg-->
+    </header>
+    <!--header-->
+
+        <article class="article-busca">
+            <div class="article__busca--contorno">
+                <div class="menu-busca">
+                    <input class="input__busca" type="search" name="input-buscar" id="input-buscar"
+                        placeholder="Busque uma roupa"> <!-- .input__busca-->
+                    <select class="input__selected" name="idade" id="idade">
+                        <option selected>Idade</option>
+                        <option value="zero-dois">0 a 2 anos</option>
+                        <option value="tres-cinco">3 a 5 anos</option>
+                        <option value="seis-oito">6 a 8 anos</option>
+                        <option value="nove-onze">9 a 11 anos</option>
+                        <option value="doze-quinze">12 a 15 anos</option>
+                        <option value="maior-dezesseis">Maior de 16 anos</option>
+                    </select> <!-- .input__selected -->
+                    <select class="input__selected" name="categoria" id="categoria">
+                        <option selected>Categoria</option>
+                        <option value="camiseta">Camiseta</option>
+                        <option value="short">Short</option>
+                        <option value="calca">Calça</option>
+                        <option value="macacao">Macacão</option>
+                        <option value="calcados">Calçados</option>
+                        <option value="outros">Outros</option>
+                    </select> <!-- .input__selected -->
+                    <button class="input__busca--botao" id="btn-buscar">Buscar</button>
+                </div> <!-- .menu__busca -->
+            </div> <!-- .article__busca--contorno-->
+        </article> <!-- .article-busca -->
+
+    <main>
+        <div class="conteudo-principal">
+            <div class="conteudo__h1">
+                <h1 class="conteudo__h1--padding">1. Poste suas roupas</h1>
+                <h1 class="conteudo__h1--padding">2. Ganhe BabyCoins</h1>
+                <h1 class="conteudo__h1--padding">3. Troque por outras roupas</h1>
+            </div> <!-- .conteudo__h1 -->
+        </div> <!-- .conteudo-principal -->
+        <div class="conteudo__botao__cadastro">
+            <input class="input__botao--cadastro" type="button" value="CADASTRE-SE" id="btn-cadastre">
+        </div> <!-- .conteudo__cadastre__botao-->
+    </main>
+
+    <footer class="footer-principal">
+        <div class="conteudo__footer">
+            <p class="conteudo__footer__frase">App Version - V1.0</p>
+            <p class="conteudo__footer__frase">ALL RIGHTS RESERVED TO BABYBAY © 2022</p>
+        </div> <!-- .conteudo__footer-->
+    </footer> <!-- .footer-principal" -->
+
+
+</body>
+
+</html>
+
+<!--
+.bloco-principal { padding:15px; }
+.bloco-principal__artigo { max-width:600px; }
+.bloco-principal__artigo--fundo-cinza { background: #c9c9c9; }
+-->

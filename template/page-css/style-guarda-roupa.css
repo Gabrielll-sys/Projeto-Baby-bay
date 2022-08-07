@@ -1,0 +1,76 @@
+.container {
+  width: 900px;
+  margin: auto;
+  padding: 50px;
+}
+
+.sidebar {
+  margin-left: 300px;
+}
+
+h1 {
+  color:#DA8BD2;
+  text-align: center;
+  margin: 20px;
+  padding-left: 100px;
+}
+
+#myTab {
+  background-color: #a3a1f3;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.container-gr {
+background-color: white;
+box-shadow: 1px 1px 2px #b6b6b694;
+width: 900px;
+border: 1px;
+border-radius: 10px 10px 0px 0px;
+}
+
+#home-tab {
+  width: 300px;
+  border-radius: 10px 0px 0px 0px;
+}
+
+#profile-tab {
+  width: 300px;
+  border-radius: 0px;
+}
+
+#contact-tab {
+  width: 300px;
+  border-radius: 0px 10px 0px 0px;
+  border: -1px;
+}
+
+.tab-content {
+  box-shadow: 1px 1px 2px #b6b6b694;
+}
+
+.nav-link {
+  color:#ffffff;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color:white;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color:#DA8BD2;
+  background-color: #fff;
+  border-color: #ffffff;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background-color: #e6e3e318;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px #b6b6b694;
+}
+
+.card {
+  transform: scale(0.8)
+}

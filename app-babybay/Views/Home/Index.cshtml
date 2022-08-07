@@ -1,0 +1,53 @@
+﻿@{
+	//ViewData["Title"] = "Home Page";
+}
+<link rel="stylesheet" href="~/css/template-page-index.css">
+<div class="container">
+	<section>
+		<article class="article-busca">
+			<div class="article__busca--contorno">
+				<div class="menu-busca">
+					<input class="input__busca" type="search" name="input-buscar" id="input-buscar"
+						   placeholder="Busque uma roupa"> <!-- .input__busca-->
+					<select class="input__selected" name="idade" id="idade">
+						<option selected>Idade</option>
+						<option value="zero-dois">0 a 2 anos</option>
+						<option value="tres-cinco">3 a 5 anos</option>
+						<option value="seis-oito">6 a 8 anos</option>
+						<option value="nove-onze">9 a 11 anos</option>
+						<option value="doze-quinze">12 a 15 anos</option>
+						<option value="maior-dezesseis">Maior de 16 anos</option>
+					</select> <!-- .input__selected -->
+					<select class="input__selected" name="categoria" id="categoria">
+						<option selected>Categoria</option>
+						<option value="camiseta">Camiseta</option>
+						<option value="short">Short</option>
+						<option value="calca">Calça</option>
+						<option value="macacao">Macacão</option>
+						<option value="calcados">Calçados</option>
+						<option value="outros">Outros</option>
+					</select> <!-- .input__selected -->
+					<button class="input__busca--botao" id="btn-buscar">Buscar</button>
+				</div> <!-- .menu__busca -->
+			</div> <!-- .article__busca--contorno-->
+		</article> <!-- .article-busca -->
+	</section>
+
+	<main>
+		@if (!User.Identity.IsAuthenticated) // Se user autenticado, então não mostrar
+		{
+			<div class="conteudo-principal">
+				<div class="conteudo__h1">
+					<h1 class="conteudo__h1--padding">1. Poste suas roupas</h1>
+					<h1 class="conteudo__h1--padding">2. Ganhe BabyCoins</h1>
+					<h1 class="conteudo__h1--padding">3. Troque por outras roupas</h1>
+				</div> <!-- .conteudo__h1 -->
+		</div> <!-- .conteudo-principal -->
+			<div class="conteudo__botao__cadastro">
+				<a asp-controller="Usuarios" asp-action="Create" class="input__botao--cadastro">CADASTRE-SE</a>
+				@*            <input class="input__botao--cadastro" type="button" value="CADASTRE-SE" id="btn-cadastre">*@
+			</div> <!-- .conteudo__cadastre__botao-->
+		}
+
+	</main>
+</div>

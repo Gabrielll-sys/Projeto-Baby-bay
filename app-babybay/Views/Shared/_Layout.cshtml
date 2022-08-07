@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] BabyBay</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" />
+	@*  <link rel="stylesheet" href="~/css/template-page-index.css">*@
+	<link rel="shortcut icon" href="~/favicon/favicon-32x32.png" type="image/x-icon">
+	<link rel="stylesheet" href="~/css/template-style.css">
+</head>
+<body>
+	<header>
+		<div class="menu-bg">
+			<div class="menu">
+				<div class="menu__logo">
+					@if (User.Identity.IsAuthenticated)
+					{
+						<a asp-controller="Home" asp-action="Index"><img src="~/img/logo-200px.png" alt="logo-babybay"></a>
+					}
+					else
+					{
+						<a asp-controller="Home" asp-action="Index"><img src="~/img/logo-200px.png" alt="logo-babybay"></a>
+					}					
+					<!-- Alterar futuramente para os menus só aparecerem depois de logar-->
+					<a asp-controller="Produtos" asp-action="Index">Produto </a> <!--Aqui inserido-->
+					<a asp-controller="Usuarios" asp-action="Index">Usuario </a> <!--Aqui inserido-->
+				</div> <!-- .menu__logo-->
+				<nav class="nav">
+					<ul class="nav__list">
+						@*<li class="nav__link">Já tem uma conta?</li>*@
+						<li class="nav__link--bold">
+							@if(User.Identity.IsAuthenticated)  // Se autenticado
+							{
+								<a class="config__logado" asp-controller="Usuarios" asp-action="Index">Olá, @User.Identity.Name</a>	// Exibe nome	// Linkar para Menu do Usuário
+								<a class="config__logout" asp-controller="Usuarios" asp-action="Logout">Sair	</a>
+							}
+							else
+							{
+								<p class="config__tem_conta">Já tem uma conta?</p>
+								<a class="config__login" asp-controller="Usuarios" asp-action="Login">Entrar</a>				
+							}
+						</li>
+					</ul> <!-- .nav__list-->
+				</nav>
+				<!--.nav-->
+			</div>
+			<!--.menu-->
+		</div> <!-- .menu-bg-->
+	</header>
+	<div class="container">
+		<main role="main" class="pb-3">
+			@RenderBody()
+		</main>
+	</div>
+
+	<footer class="footer-principal">
+		<div class="conteudo__footer">
+			<p class="conteudo__footer__frase">App Version - V1.0</p>
+			<p class="conteudo__footer__frase">ALL RIGHTS RESERVED TO BABYBAY © 2022</p>
+		</div> <!-- .conteudo__footer-->
+	</footer> <!-- .footer-principal" -->
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

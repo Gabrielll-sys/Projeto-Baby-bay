@@ -1,0 +1,54 @@
+.card {
+  width: 300px;
+  height: 380px;
+  box-shadow: 1px 1px 2px #b6b6b694;
+  border-radius: 10px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.card-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-infos {
+display: flex;
+justify-content: space-between;
+padding: 10px 20px 20px 20px;
+}
+
+.card-infos h2 {
+  font-size: 22px;
+}
+
+.card-infos p {
+  font-size: 16px;
+  color: #7c7c7cd7;
+}
+
+.card-price {
+  color: #DA8BD2;
+  bottom: 20px;
+  left: 20px;
+}
+
+.idade {
+  color: #7c7c7cd7;
+}
+
+.btn-editar {
+  color: #ffffff;
+  background-color: #DA8BD2;
+  padding: 15px 25px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.btn-editar:hover{
+  opacity: 0.6;
+}

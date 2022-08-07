@@ -1,0 +1,265 @@
+# 10. Registros de Testes de Software 
+
+Os registros de testes serão catalogados por planilha e legenda que seguem a seguir: 
+
+![legenda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/Legenda.PNG) 
+
+![reg1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/1.png) 
+![reg2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/2.png) 
+![reg3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/3.png) 
+![reg4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/4.png) 
+![reg5](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/5.png) 
+![reg6](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/6.png) 
+![reg7](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/7.png)
+
+
+# Template Padrão da Aplicação
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/6e9dba74c0b007defd057dc7e71250b9c9adc43d/docs/img/2parte_planilha_usabilidade.jpeg
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
+
+Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+
+> **Links Úteis**:
+>
+> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
+> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
+> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
+> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
+
+
+
+# Programação de Funcionalidades
+
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+
+Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+
+Para cada requisito funcional, pode ser entregue um artefato desse tipo
+
+> **Links Úteis**:
+>
+> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
+> - [JSON Tutorial](https://www.w3resource.com/JSON)
+> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
+> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
+> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+teste usabilidade registro
+# 8. Registro de Testes de Usabilidade
+
+O usuário deve ser capaz de adicionar roupas no seu guarda roupa com as devidas descrições exigidas pela plataforma, com fotos e vídeo para detalhar visualmente a peça. 
+
+![legenda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Software/Legenda.PNG)
+
+![reg1](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Usabilidade/1.png)
+
+![reg2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Usabilidade/2.png)
+
+![reg3](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Usabilidade/3.png)
+
+![reg4](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t2-babybay/blob/main/image-readme/Teste-Usabilidade/4.png)
+
+plano de teste de software tabelado
+
+Caso de Teste | CT-01. Cadastrar usuário no sistema (RF-1) 
+---| --- 
+Objetivo | Realizar o cadastro no sistema 
+Informações Necessárias (Entrada) | Nome de usuário<br> CPF<br> E-mail<br> Senha alfanumérica (mínimo 8 dígitos)<br> Endereço (Rua, Número, Bairro, Cidade, Estado)  
+E-mail Confirmação | Um e-mail para confirmar a autenticidade de seu cadastro foi enviado para sua caixa de entrada, clique no link para confirmar. 
+Saída Esperada | Você confirmou seu e-mail. Para realizar login entre com e-mail ou nome de usuário criado e a senha que foi criada
+
+Caso de Teste | CT-02. Login do usuário (RF-1) 
+--- | ---
+Objetivo | Realizar o login no sistema após cadastro de usuário. v
+Informações Necessárias (Entrada) | Nome de usuário ou e-mail<br> Senha  
+Esqueci a Senha | 
+Saída Esperada |
+
+Caso de Teste | CT-02. Login do usuário (RF-1) 
+--- | ---
+Objetivo | Realizar o login no sistema após cadastro de usuário. 
+Informações Necessárias (Entrada) | Nome de usuário ou e-mail<br> Senha
+Esqueci a Senha | Clique no link “Esqueci a senha” para a as instruções de redefinições serem enviadas ao e-mail cadastrado. 
+Saída Esperada | Com os dados de login corretos, o sistema irá redirecionar o usuário para a página principal. 
+
+Caso de Teste | CT-03. Cadastrar produto (RF-2) / (RF-3) / (RF-4) 
+--- | ---
+Objetivo | Realizar o cadastro de um produto no Guarda roupa com foto. 
+Quais roupas serão adicionadas (ENTRADA)  | Blusa do exemplo babyshark.<br> Bermuda exemplo jeans infantil.<br> Adicionar descrição, categoria, idade, tamanho e gênero.<br> Adicionar 3 fotos 
+Quantidade de roupas | 2 Unidades
+Tamanho para envio de mídia disponível | 100 mb
+Saída Esperada | Roupas adicionadas com sucesso, para poder criar um anúncio, vá até a aba “Criar Anúncio”;<br> Um anúncio deverá ser enviado ao administrador para análise, caso de erro.<br> ensagem na tela do usuário: “Seu anúncio será analisado em até 24h”;br> ara o administrador: Notificação de novos anúncios para avaliar.
+
+
+Caso de Teste | CT-04. Excluir de produto e anúncio (RF-6)  
+--- | ---
+Objetivo | Realizar a exclusão de um anúncio ou produto. 
+Quais roupas serão excluídas (ENTRADA) | Blusa exemplo babyshark<br> Bermuda exemplo jeans infantil;<br> Com sua descrição, categoria, idade, tamanho e gênero;
+Excluir produto ou anúncio  | Dentro do menu “Guarda Roupa”, selecionar o produto desejado e clicar em excluir (ícone lixeira) e confirmar.
+Saída Esperada | Tem certeza que deseja excluir a roupa selecionada?<br> Para finalizar, o anunciante deve clicar em “sim”. 
+
+
+Caso de Teste |CT-05. Trocar produto (RF-2) 
+--- | ---
+Objetivo | Realizar uma negociação de troca com outro usuário. 
+Número de roupas (ENTRADA) | 1 Blusa exemplo.<br> 1 Calça exemplo. 
+Custo da transação | 2 BabyCoins
+Data do envio da solicitação | XX/XX/20XX 
+Saída Esperada | Por favor, aguarde a solicitação de troca ser aceita pelo usuário dono do produto. 
+
+Caso de Teste | CT-06. Curtir anúncio (RF-7)  
+--- | ---
+Objetivo | Cliente curtir um anúncio e esse ser registrado como favoritos no menu “Guarda Roupa”. 
+Selecionar curtir (ENTRADA) | Dentro de um anúncio, clicar no ícone estrela abaixo do produto. 
+Saída Esperada | No menu “Guarda Roupa”, o anúncio deve estar registrado na opção “Favoritos”, e com um link direto para o anúncio.
+
+
+Caso de Teste | CT-07. Buscar Produtos (RF-8) / (RF-09) 
+--- | ---
+Objetivo | Utilizar o campo de busca e seus respectivos filtros para realizar buscas por produtos no site. 
+Selecionar curtir (ENTRADA) | Digita o nome do produto desejado (Calça, blusa, meia) e clicar em buscar.<br> Testar os filtros em conjunto, em combinações diferentes e isoladamente.<br> Filtros utilizados: Categoria, idade, tamanho e gênero.
+Saída Esperada | Informação com o número de anúncios exibidos.<br> Anúncios exibidos na tela. 
+
+Caso de Teste | CT-08. Trocar mensagens entre usuários (RF-11) 
+--- | ---
+Objetivo | Realizar uma conversa via chat pelo anunciante e cliente. 
+Preparação | Após a troca ser solicitada pelo cliente e confirmada pelo anunciante, a guia de chat será aberta. 
+Selecionar curtir (ENTRADA) | Digitar mensagens de teste entre as partes. 
+Saída Esperada | Mensagens e enviadas com sucesso. 
+
+Caso de Teste | CT-09. Comprar BabyCoin (RF-12)
+--- | ---
+Objetivo | Comprar BabyCoins via PIX ou transferência bancária. 
+Selecionar qual plano de BabyCoin é desejado (ENTRADA) | O usuário deve ir na área do site destinada à compra de BabyCoin e escolher dentre as três opções: Light (3 BabyCoins), Standard (6 BabyCoins) ou VIP (12 BabyCoins). Em seguida deve prosseguir com a forma de pagamento desejada (PIX ou transferência bancária) e enviar o comprovante da compra por e-mail. 
+Saída Esperada | Após ter pago o valor, em um prazo de até 3 dias úteis, o saldo de BabyCoins escolhido sera acrescido em sua carteira. 
+
+
+Caso de Teste | CT-10. Aceitar / Recusar ou Cancelar a solicitação de troca e finalizar troca (RF-13) / (RF-14)
+--- | ---
+Objetivo | Realizar as funções do ponto de vista do anunciante: Aceitar troca, recusar troca.<br> Realizar Funções do ponto de vista do cliente: Cancelar solicitação de troca. 
+Preparação | Após a solicitação de troca pelo cliente, o sistema apresentará uma notificação que para abrir o Menu Troca (tanto para o anunciante, quanto para o cliente). 
+Escolher opção (ENTRADA) | Dentro do Menu Troca:<br> * Anunciante: Opção “Aceitar troca” e “Cancelar troca”.<br> * Cliente: Opção “Cancelar Solicitação”. 
+Saída esperada (Anunciante) | Aceitar troca: O sistema deverá exibir os dados relativos ao produto e abrir a opção de “Chat”, para contato com o cliente.<br> Rejeitar troca: O sistema deverá apresentar a mensagem: "Tem certeza que você deseja cancelar a troca?”, caso “sim”: “Você recusou a troca”. Após isso, redirecionar para o menu do usuário. 
+Saída esperada (Cliente) | Cancelar Solicitação: O sistema irá apresentar a mensagem: “Tem certeza que deseja cancelar a solicitação de troca?”, caso “sim”: “Você cancelou sua solicitação, clique em finalizar para terminar o processo.” Após isso, redirecionar para o menu do usuário.  
+
+
+Caso de Teste | CT-11. Avaliação da troca (RF-15)  
+--- | ---
+Objetivo | Usar do meio de avaliação de estrelas (1 a 5) como forma de avaliar a transação e avaliar o usuário com quem realizou a transação. 
+Após a entregue de uma roupa de troca (ENTRADA) | Após confirmado a etapa final da compra/troca, que é a entrega, após o usuário logar novamente no sistema, aparecerá uma pop-up, perguntando como para avaliar a logística do site, e avaliar o usuário com quem ocorreu a compra/troca através do sistema de avaliação de estrelas, podendo o usuário colocar 1 estrela - “Horrível” /    5 estrelas - “Sensacional”. 
+Saída Esperada | Avaliação: Após enviado a avaliação, aparecera a seguinte mensagem: ”Obrigado pela avaliação, o time dev fica feliz com seu feedback, sua avaliação é importante para o bom funcionamento do site”. 
+
+
+
+
+Caso de Teste | CT-12. Suporte ao usuário (RF-16)
+--- | ---
+Objetivo | Canal de comunicação entre usuário e administrador do sistema, contendo opções de marcar o tipo de ajuda solicitada e uma descrição que será enviada pelo usuário. 
+Preparação | 
+Selecionar curtir (ENTRADA) | Usuário clica na opção “Ajuda”. Um select será apresentado com opções: “Denunciar Usuário, Minha Conta, Ajuda com Troca, Outros”.<br> Também abrirá um campo para escrever uma mensagem. 
+Selecionar opção e escrever mensagem (ENTRADA) | O usuário deve marcar a opção do tipo de solicitação e escrever a mensagem que deseja. Em seguida, clicar em “Enviar”. 
+Saída Esperada | O administrador visualiza a mensagem no campo “Solicitações de Usuários”, tendo a opção de responder ao usuário. Após a resposta, na tela usuário recebe notificação contendo a mensagem. 
+
+Caso de Teste | CT-13. Denunciar conteúdo ou anúncio impróprio (RF-17)
+--- | ---
+Objetivo | Usuário ter a opção para denúncia de usuário dentro do próprio anúncio. Essa denúncia deverá ser recebida pelo administrador. 
+Clicar em Denunciar (ENTRADA) | Dentro do anúncio, o usuário deverá clicar em denunciar. Em seguida abrirá uma janela para escolha do motivo: Conteúdo Explícito, Violência, Preconceituoso, Outros (breve mensagem).<br> Após isso, o usuário deve clicar em “Enviar”. 
+Saída Esperada | Usuário: “Sua denúncia foi enviada a nossa equipe e será analisada. Obrigado, sua participação é importante para a nossa comunidade”.<br> Para o Administrador: Recebe notificação de Denúncia, avalia e retorna mensagem para o usuário no inbox. 
+
+Caso de Teste | CT–14. Desativar Conta (RF-19) 
+--- | ---
+Objetivo | Desativar conta através das configurações de conta da aba “Meu perfil”. 
+Restrições e informações necessárias para desativar a conta (ENTRADA) | Para poder desativar a conta do sistema, o usuário deve possuir em mãos:<br> E-mail<br> Senha<br> Com isso, após colocar o e-mail e senha no campo de desativação de conta, um e-mail será enviado para a caixa de entrada de usuário, sendo que o mesmo deverá confirmar a desativação da conta. 
+Saída Esperada | “Um e-mail para confirmação da desativação da sua conta foi enviado para sua caixa de entrada”.<br> “Clique no link para terminar a etapa de desativação da sua conta”.<br> Após ter clicado no link, a conta do usuário será desativada por um período de 30 dias, após esse período de dias a conta do usuário será excluída automaticamente. 
+
+
+Caso de Teste | CT-15. Postar vídeo no anúncio (RF-5) 
+--- | ---
+Objetivo | Realizar upload de um vídeo e postar em um anúncio 
+Adicionar vídeo (ENTRADA) | Após clicar em “Adicionar Vídeo”, o usuário terá a opção de realizar um upload no video através de um botão “Escolher Video”. 
+Saída Esperada | Vídeo postado no anúncio. 
+
+Caso de Teste | CT-16. Responsividade (RNF-09)
+--- | ---
+Objetivo | Aplicação responsiva a formatos diferentes. 
+Passos (ENTRADA)  | O usuário entra no endereço do site através de um de smartphone, aonde o menores vão até 300 pixels, aonde também tem casos inversos aonde o usuário pode acessar o site por uma tv, podendo ir até 4000 pixels. 
+Restrições  | O dispositivo móvel não pode ser largura menor que 300 pixels. 
+Saída Esperada | Após acessar o site pelo smartphone, o site já ira se adaptar ao tamanho do dispositivo, fazendo assim que o conteúdo se disponha de forma homogênea. 
+
+Caso de Teste | CT-17. Disponibilidade (RNF-03) 
+--- | ---
+Objetivo | Testar a disponibilidade do sistema durante semana em diversos períodos do dia, objetivando que atenda ao critério estabelecido de estar disponível em 90% do tempo durante este período. 
+Passos (ENTRADA) | O usuário entra no endereço do site durante momentos diversos durante um período de 7 dias, momentos estes escolhidos aleatoriamente pela equipe desenvolvedora. 
+Saída Esperada |O site deve estar operante durante o acesso do usuário. 
+
+Caso de Teste | CT-18. Retorno da busca (RNF-04) 
+--- | ---
+Objetivo | Testar o desempenho do sistema, para saber se atende ao critério estabelecido pelo requisito não-funcional descrito acima no Caso de Teste. 
+Passos (ENTRADA) | O usuário deve inserir alguma palavra-chave na barra de busca disponível no site e cronometra-se o tempo que o sistema leva para retornar o resultado desejado. 
+Saída Esperada | Após confirmada a busca desejada na barra de pesquisa, os resultados aparecem para o usuário em um tempo inferior ou igual a 5 segundos. 
+
+Caso de Teste | CT-19. Geolocalização (RF-10) 
+--- | ---
+Objetivo | Testar o desempenho do sistema, para saber se atende ao critério estabelecido pelo requisito não-funcional descrito acima no Caso de Teste. 
+Passos (ENTRADA) | O usuário deve inserir alguma palavra-chave na barra de busca disponível no site e cronometra-se o tempo que o sistema leva para retornar o resultado desejado. 
+Saída Esperada | Após confirmada a busca desejada na barra de pesquisa, os resultados aparecem para o usuário em um tempo inferior ou igual a 5 segundos. 
+
+
+Caso de Teste | CT-20. Suporte a PNG e JPG (RNF-06) 
+--- | ---
+Objetivo | Testar se o usuário consegue acrescentar imagens nos formatos png e jpeg ao fazer o anúncio de uma peça para ser trocada. 
+Passos (ENTRADA) | O usuário deve inserir as fotos escolhidas para peça no campo destinado a isto na ferramenta de criar novo anúncio. 
+Restrições | Não serão aceitos outros formatos como pdf, docx, entre outros. 
+Saída Esperada | As fotos inseridas pelo usuário deverão aparecer em seu anúncio, tanto quando pendente como quando já publicado. 
+
+Caso de Teste | CT-21. Vídeos MP4, MKV, OGV (RNF-07) 
+--- | ---
+Objetivo | Testar se o usuário consegue acrescentar vídeos nos formatos mp4, mkv ou ogv ao fazer o anúncio de uma peça para ser trocada. 
+Passos (ENTRADA)  |  O usuário deve inserir o vídeo escolhido para peça no campo destinado a isto na ferramenta de criar novo anúncio. 
+Restrições  | Não serão aceitos outros formatos como avi, wmv, mov, entre outros. 
+Saída Esperada | O vídeo inserido pelo usuário deverá aparecer em seu anúncio, tanto quando pendente como quando já publicado. 
+
+Caso de Teste | CT-22. Validar postagem 3 fotos e 1 vídeo (RNF-08) 
+--- | ---
+Objetivo | Testar se o sistema atende à restrição de não permitir que uma postagem seja submetida pelo usuário caso não tenha pelo menos três fotos, um vídeo e uma descrição inclusos.  
+Passos (ENTRADA) | O usuário deve inserir menos de 3 fotos e 1 vídeo e também não incluir descrição na ferramenta do site de criar novo anúncio. 
+Saída Esperada | O site não deve permitir a postagem da publicação de peça e ainda informar ao usuário quais elementos estão faltando para atender aos requisitos de postagem. 
+
+
+
+Caso de Teste | CT-23. Acessibilidade (RNF-10) 
+--- | ---
+Objetivo | Testar se o sistema fornece ao usuário opções de ajuste para o contraste e tamanho da fonte para que melhor atendam suas necessidades. 
+Preparação | 
+Passos (ENTRADA) | O usuário deve alterar nos ícones dispostos do site para contraste e tamanho da fonte para alterar esses atributos (canto inferior direito de todas as telas) 
+Saída Esperada | Tamanho da fonte aumentar ou diminuir de acordo com a escolha do usuário e contraste do site mudar para modo noturno ou diurno, de acordo com sua preferência. 
+
+Caso de Teste | CT-24. Segurança (RNF-11) 
+--- | ---
+Objetivo | Verifica a segurança das informações de cadastro de usuário, sendo que as mesmas devem ser somente acessadas pelo próprio usuário dono da conta, e pelo administrador do sistema. 
+Passos (ENTRADA) | No login de tipo usuário, verificar se os dados são exibidos apenas pelo próprio usuário, sendo que outra conta não poderá ver esses dados. Os dados estão em “Minha Conta > Meus dados”.<br> No login de tipo administrador, verificar se os dados do usuário são exibidos. Os dados estão em “Usuários > Dados de Usuários”. 
+Saída Esperada | Informações referente a conta; 
+
+Caso de Teste | CT-25. Alerta de Produtos favoritados (RNF-12) 
+--- | ---
+Objetivo | Testar se a aplicação está emitindo alertas de acordo com os produtos de interesse dos usuários.
+Selecionar curtir (ENTRADA) |  O usuário deve realizar o login no site e acessar a caixa de alertas de produtos. 
+Saída Esperada | Informações de alertas chegando para o usuário corretamente. 
+
+Caso de Teste | CT-26. Histórico de Usuário (RNF-13) 
+--- | ---
+Objetivo | Registrar no histórico do usuário quais trocas realizadas em seu cadastro. 
+Selecionar curtir (ENTRADA) | Se o usuário fizer alguma troca, ele poderá conferir em seu histórico de usuários quais foram esses produtos. 
+Saída Esperada | Informações referentes ao histórico de trocas realizadas. 
+
+Caso de Teste | CT-27. Bloqueio por denúncias (RNF-14) 
+--- | ---
+Objetivo | Tornar o site seguro contra usuários sem boa reputação de transações ou usuário maliciosos com segundas intenções. 
+Requisitos (ENTRADA) | Se o usuário for denunciado por 3 ou mais vezes, a conta dele é suspensa por 30 dias, caso o usuário queira contestar, tem esse período de tempo, caso passe o prazo, a conta será deletada. 
+Saída Esperada | A conta do usuário será automaticamente suspensa após receber 3 ou mais denúncias, podendo o usuário contestar a suspensão. 
+
+Caso de Teste | CT-28. Bloqueio por pendência de avaliação (RNF-15) 
+--- | ---
+Objetivo | Bloquear o usuário a postar novos anúncios enquanto não avaliar a última troca realizada.
+Troca não avaliada (ENTRADA)  | Não avaliar troca. 
+Saída Esperada | Usuário bloqueado após 3 (dias)<br> Obs.: Reduzir o tempo para o teste. 
+

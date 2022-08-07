@@ -1,0 +1,128 @@
+/* TELA CADASTRO USUÁRIO 
+
+C - Arquivo Style Cadastro Usuárop (page-css/style-cadastro-usuario.css)
+    C1. Section > Article
+    
+/****************************************
+    C1. Section > Article
+/****************************************/
+*{
+    list-style: none;    
+}
+
+.div-titulo-cadastro{
+    background-color: var(--clr--third-background);
+    border: 1px solid  var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow-content-nivel-3);
+    border-radius: 10px;
+    font-size: .9em;
+    margin: 20px auto; 
+    max-width: 400px;   
+    padding: 20px;
+    /* flex */    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-c{    
+    /* flex */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+    margin: 15px 20px;
+}
+
+.section-c__div{
+    background-color: var(--clr-second-background);
+    border: 1px solid  var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow-content); 
+    border-radius: 10px;
+    margin: 20px;   
+    padding: 20px;
+    /* flex */
+    display: flex;
+    flex-flow: row wrap; /* wrap */
+    justify-content: center;
+    flex-grow: 1; 
+    flex-shrink: 1;    
+ 
+}
+
+.article-c{
+    background-color: var(--clr--third-background);
+    border: 1px solid  var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow-content-nivel-3);
+    margin: 40px;
+    padding: 30px; 
+    /* flex*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1; 
+    flex-shrink: 1;   
+}
+
+.article-c__ul{    
+    text-align: left;
+    /* align-self: flex-end; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;    
+} 
+
+.article-c__ul > li{
+    display: flex;
+    flex-direction: row; /* antes estava column*/
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.article-c__ul > li > input{
+    background: #ffffff;   
+    border-radius: 10px;    
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow);     
+    height: 40px;
+    margin: 10px;
+    padding: 10px;        
+    font-size: 1em;      
+    flex-grow: 1; /* antes sem grow */
+    flex-shrink: 1;
+}
+
+.article-c__ul > li > input:hover{
+    box-shadow: var(--clr--box-shadow-hover);
+    border: 1.5px solid var(--clr-purple-dark);
+}
+
+#btn-confirmar{
+    background-color: var(--clr-purple-dark);
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow); 
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 48px;  
+    letter-spacing: 1px;    
+    max-width: 140px;
+    text-shadow: var(--clr--text-shadow);   
+  
+}
+
+#btn-confirmar:hover{
+    box-shadow: var(--clr--box-shadow-btn-hover);
+    background-color: var(--clr-purple-light);
+    cursor: pointer;
+}
+
+#btn-confirmar:active{ 
+    background-color: var(--clr-purple-dark);
+ 
+}
+
+

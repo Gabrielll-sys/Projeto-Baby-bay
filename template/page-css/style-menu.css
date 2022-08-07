@@ -1,0 +1,81 @@
+/* MENU USUÁRIO
+
+    D - Arquivo Style Menu (page-css/style-menu.css)
+    D1. Main
+
+/****************************************
+    5. Main
+/****************************************/
+.container-principal{
+    max-width: 800px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+
+
+}
+.container-principal>h1{
+    padding: 20px;
+    color: var(--clr-purple-dark);
+    height: 150px;
+
+}
+
+.principais-funcionalidades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.quadrados{
+    background-color: #DA8BD2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    Width: 337px;
+    Height :197px;
+    Opacity :90%;
+    border-radius:9px;
+    padding: 20px;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top: 35px;
+    box-shadow: 1.7px 1.7px 1.7px black;/*A variável de box shadow não funcionou aqui*/
+    
+}
+.quadrados a:hover {
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    color: var(--clr-yellow-dark);
+    
+}
+.quadrados>img{/*Aqui é configuração do tamanho das imagens que vão dentro das caixas*/
+    width: 88px;
+    height: 80px;
+    padding: 10px;
+
+    
+}
+
+
+@media(max-width:615px){
+    .principais-funcionalidades{
+        display: flex;
+        flex-direction: column;
+        
+       
+    }
+}
+@media(max-width:615px){
+    html{
+        /* font-size: 70%; */
+    }
+        
+       
+    
+}

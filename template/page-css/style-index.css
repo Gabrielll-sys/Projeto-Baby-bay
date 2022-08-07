@@ -1,0 +1,245 @@
+/* TELA PRINCIPAL */
+
+/* B - Arquivo Style Index (page-css/style-index.css)
+    B1. Section > Article
+    B2. Main */
+
+/****************************************
+    B1. Section > Article
+/****************************************/
+
+.article-busca{
+    /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article__busca--contorno{
+    background-color: var(--clr-second-background);
+    border: 1px solid  var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow-content);    
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.menu-busca{ 
+     /* flex */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-around; 
+    max-width: 1000px;      
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.input__busca{
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow);    
+    border-radius: 10px;        
+    font-size: 0.9em;
+    font-style: italic;
+    /* flex */
+    flex: 2 8 960px; /* grow shrink basis*/
+    height: 45px;     
+    margin: 10px;
+    padding: 10px;    
+}
+
+.input__selected{
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow);    
+    border-radius: 5px;
+    flex: 1 5 120px;    /* grow shrink basis*/
+    font-size: 0.9em;
+    margin: 5px 15px;
+    padding: 2px;    
+    width: 120px;   
+}
+
+/* Botão de buscar produtos */
+.input__busca--botao{
+    background-color: var(--clr-purple-dark);
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow); 
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 0.9em;
+    font-weight: bold;
+    height: 32px;  
+    letter-spacing: 1px;     
+    margin: 5px 15px;
+    min-width: 120px;     
+    text-shadow: var(--clr--text-shadow);  
+}
+
+.input__busca:hover,
+.input__selected:hover{
+    box-shadow: var(--clr--box-shadow-hover);
+    border: 1.5px solid var(--clr-purple-dark);
+}
+
+.input__busca--botao:hover{
+    box-shadow: var(--clr--box-shadow-btn-hover);
+    background-color: var(--clr-purple-light);
+    cursor: pointer;
+}
+
+.input__busca--botao:active{
+    background-color: var(--clr-purple-dark);
+}
+
+
+/****************************************
+    B2. Main
+/****************************************/
+
+.conteudo-principal{
+    color: #DA8BD2;        
+    font-size: 1.1em;
+    text-shadow: 1px 1px #5f465dce;
+    padding: 20px;    
+    margin: auto;
+    /* flex */
+    display: flex;
+    flex-flow: column;    
+}
+
+.conteudo__h1{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.conteudo__h1--padding{
+    padding: 10px 10px;
+}
+
+.conteudo__botao__cadastro{
+    display: flex;      
+    justify-content: center;
+}
+
+/* Botão Cadastre-se*/
+.input__botao--cadastro{
+    background-color: var(--clr-purple-dark);
+    border-color: var(--clr--border-box);
+    box-shadow: var(--clr--box-shadow); 
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 50px;  
+    letter-spacing: 2px;  
+    width: 220px;   
+    margin: 20px;       
+    text-shadow: var(--clr--text-shadow);     
+}
+
+.input__botao--cadastro:hover{
+    box-shadow: var(--clr--box-shadow-btn-hover);
+    background-color: var(--clr-purple-light);
+    cursor: pointer;
+}
+
+.input__botao--cadastro:active{
+    background-color: var(--clr-purple-dark);
+}
+
+/****************************************/
+
+
+@media screen and (min-width: 320px) and (max-width: 481px){
+    .input__botao--cadastro{
+        height: 40px; 
+        width: 150px;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .input__botao--cadastro{
+        height: 40px; 
+        width: 170px;
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px){  
+}
+
+@media screen and (min-width: 1201px){
+
+}
+
+
+/* 8. MEDIA QUERIES*/
+/* 
+@media screen and (max-width: 700px){
+    main{
+        font-size: 0.8em;        
+    }
+    .input__busca--botao{
+        margin-top: 15px;
+    }
+    .input__botao--cadastro{
+        min-width: 200px;
+        font-size: 1.3em;
+    }
+    .footer-principal{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 520px){
+    main{
+        font-size: 0.7em;
+        margin-top: -5px;        
+    }
+    .input__botao--cadastro{
+        font-size: 1.3em;
+        min-width: 180px;        
+        margin-top: 10px;
+    }
+    .footer-principal{
+        font-size: 0.7em;
+    }
+}
+
+@media screen and (max-width: 480px){
+    main{
+        font-size: 0.6em;
+        margin-top: -7px;        
+    }
+    .input__botao--cadastro{
+        font-size: 1.5em;
+        min-width: 160px;        
+        margin-top: -4px;
+        height: 30px;
+    }
+    .footer-principal{
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 380px){
+    main{
+        font-size: 0.6em;
+        margin-top: -20px;        
+    }
+    .input__botao--cadastro{
+        font-size: 1.4em;
+        min-width: 150px;        
+        margin-top: -10px;
+        height: 30px;
+    }
+    .footer-principal{
+        font-size: 0.4em;
+    }
+} */
+
